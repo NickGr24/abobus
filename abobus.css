@@ -28,12 +28,12 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
-a{
+.footer-link{
     color: rgb(201, 237, 236);
    font-size: 30px;
    padding-left: 15px;
 }
-a:hover{
+.footer-link:hover{
     color: rgb(122, 220, 188);
 }
 
