@@ -68,20 +68,15 @@ body {
 
 }
 
-@media (max-width: 768px) {
-    .product-card {
-        width: 45%;
+@media (max-width: 600px) {
+    .odejda{
+        display: flex;
+        flex-direction: column;
+    
     }
-    #prod-img {
-        width: 45%;
-    }
-}
 
-@media (max-width: 480px) {
-    .product-card {
-        width: 90%;
-    }
     #prod-img {
-        width: 90%;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 }
