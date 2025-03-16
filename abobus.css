@@ -45,3 +45,15 @@ p{
     padding-top: 10px;
     font-family: "Roboto", sans-serif;
 }
+
+@media (max-width: 600px){
+    footer{
+        height: 300px;
+    }
+    .love{
+        font-size: 25px;  
+    }
+    .links{
+        font-size: 30px; 
+    }
+}
