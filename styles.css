@@ -75,8 +75,10 @@ body {
     
     }
 
-    #prod-img {
-        flex-wrap: wrap;
-        gap: 10px;
+    .product-card {
+        width: 90%;
+    }
+    .product-img{
+        width: 90%;
     }
 }
